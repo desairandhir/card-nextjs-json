@@ -1,0 +1,25 @@
+/* .cardWrapper {
+    width: 30%;
+    display: flex;
+} */
+
+.card {
+    /* width: 100%; */
+    border: 2px solid black;
+    border-radius:28px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #a19c9c67;
+}
+
+.cardImage {
+    width: 100%;
+}
+.cardImage img {
+    width: 100%;
+}
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
